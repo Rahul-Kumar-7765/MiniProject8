@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-text-color:#222;
+    --secondry-text-color:#444;
+    --card-background-color:#fff;
+    --background-color:#eee;
+    --default-margin:30px
+}
+.container{
+    margin-left: 25%;
+    padding: 40px;
+    width: 50%;
+    background-color: var(--background-color);
+}
+.box{
+    padding: var(--default-margin);
+    margin-block: var(--default-margin);
+    background-color: var(--card-background-color);
+    border-radius: var(--default-margin);
+}
+h2{
+    margin-bottom: var(--default-margin);
+    background-color: var();
+}
+.box:hover{
+    background-color: rgb(135, 116, 67);
+    text-align: center;
+    border-radius: 100px;
+}
+h1:hover{
+    width: 20px;
+}
